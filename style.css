@@ -1,6 +1,6 @@
 
 .container{
-    margin:30px 0 0 50px;
+    margin:30px 0 0 -60px;
 }
 
 
@@ -8,7 +8,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 100px;
+    margin: 0 -300px 0 100px;
     
    
 }
@@ -16,7 +16,7 @@
 .list{
     list-style-type: none;
    display: flex;
-    margin-right:700px ;
+    margin-right:400px ;
 }
 
 .list-item{
@@ -27,7 +27,8 @@
 }
 
 .button-group{
-    padding: 10px 50px; 
+    padding: 10px 0px; 
+    margin-right: 450px;
 }
 
 .nav-button{
@@ -38,20 +39,20 @@
     font-family: "Poppins";
     color: #ffff;
     font-size: 14px;
-    margin-left:-350px;
+ 
 }
 
-.banner-container{
+/* .banner-container{
     display:flex ;
     justify-content: center;
     margin: 10px;
-}
+} */
 
 .heading-text{
-    font-size: 50px;
+    font-size: 65px;
     font-family: "Poppins";
     color: #3C2F60;
-    margin: 120px 60px 0 0;
+    margin: 90px 60px 0 100px;
 }
 
 .nav-button1{
@@ -62,7 +63,7 @@
     font-family: "Poppins";
     color: #ffff;
     font-size: 14px;
-    margin: 50px 0;
+    margin: 50px 0 0 105px;
 }
 
 span{
@@ -70,11 +71,18 @@ span{
 }
 
 .description{
-    margin: 1px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #818181;
+    margin: 10px 0 0 105px;
 }
 
-/* .image{
-    margin: 0 0 -100px 0;
-} */
+.image{
+    display: flex;
+    float: right;
+    margin: -500px 10px 0 0;
+}
+*{
+    margin: 0 0 0 0;
+    padding: 0;
+    overflow-x: hidden;
+}
